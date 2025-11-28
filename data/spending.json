@@ -1,0 +1,28 @@
+
+[
+    {
+        "category": "Food",
+        "amount": 250,
+        "date": "2023-10-01"
+    },
+    {
+        "category": "Transport",
+        "amount": 100,
+        "date": "2023-10-02"
+    },
+    {
+        "category": "Entertainment",
+        "amount": 150,
+        "date": "2023-10-03"
+    },
+    {
+        "category": "Utilities",
+        "amount": 200,
+        "date": "2023-10-04"
+    },
+    {
+        "category": "Healthcare",
+        "amount": 300,
+        "date": "2023-10-05"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "John Doe",
+        "amount": 55000,
+        "currency": "USD"
+    },
+    {
+        "name": "Jane Smith",
+        "amount": 72000,
+        "currency": "USD"
+    },
+    {
+        "name": "Alice Johnson",
+        "amount": 48000,
+        "currency": "USD"
+    },
+    {
+        "name": "Bob Brown",
+        "amount": 62000,
+        "currency": "USD"
+    },
+    {
+        "name": "Charlie Davis",
+        "amount": 75000,
+        "currency": "USD"
+    }
+]
