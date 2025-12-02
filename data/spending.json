@@ -1,28 +1,33 @@
-
 [
     {
-        "category": "Food",
+        "id": 1,
+        "category": "Netflix",
         "amount": 250,
         "date": "2023-10-01"
     },
     {
-        "category": "Transport",
+        "id": 2,
+        "category": "Spotify",
         "amount": 100,
         "date": "2023-10-02"
     },
     {
-        "category": "Entertainment",
+        "id": 3,
+        "category": "Amazon",
         "amount": 150,
         "date": "2023-10-03"
     },
     {
-        "category": "Utilities",
+        "id": 4,
+        "category": "Tiktok",
         "amount": 200,
         "date": "2023-10-04"
     },
     {
-        "category": "Healthcare",
+        "id": 5,
+        "category": "Instagram",
         "amount": 300,
         "date": "2023-10-05"
     }
 ]
+    
