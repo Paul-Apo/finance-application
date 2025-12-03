@@ -1,3 +1,5 @@
+import {ReactNode} from "react";
+
 export interface ExpenseType {
   id: string;
   name: string;
@@ -10,4 +12,11 @@ export interface SpendingType {
   category: string;
   amount: number;
   date: string;
+}
+
+export interface ProfileItemProps {
+  icon: ReactNode;
+  title: string;
+  subtitle: string;
+  rightElement?: ReactNode;
 }
