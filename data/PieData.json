@@ -1,0 +1,24 @@
+[
+  {
+   "value": 47,
+    "color": "#723FEB",
+    "focused": true,
+    "text": "47%"
+  },
+  {
+    "value": 40,
+    "color": "#97E0F7",
+    "text": "40%"
+  },
+  {
+    "value": 16,
+    "color": "#fff",
+    "text": "16%"
+  },
+  {
+    "value": 3,
+    "color": "#FFA5BA",
+    "gradientCenterColor": "#FFF7F7",
+    "text": "3%"
+  }
+]
