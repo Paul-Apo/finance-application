@@ -20,3 +20,11 @@ export interface ProfileItemProps {
   subtitle: string;
   rightElement?: ReactNode;
 }
+
+
+export type Message = {
+  id: string;
+  text: string;
+  sender: 'user' | 'ai';
+  createdAt: number;
+};

@@ -1,13 +1,18 @@
 import Colors from "@/constants/color";
 import { AntDesign, FontAwesome, SimpleLineIcons } from "@expo/vector-icons";
-import { Tabs } from "expo-router";
+import { Tabs, usePathname } from "expo-router";
 import React from "react";
 import { View } from "react-native";
 
 const Layout = () => {
+    const pathname = usePathname();
+
+    // Hide the tab bar on the transaction (chat) screen
+    const isTransactionScreen = pathname.includes('/transaction');
+
     return (
         <Tabs
-            screenOptions={{
+            screenOptions={({ route }) => ({
                 tabBarStyle: {
                     backgroundColor: Colors.grey,
                     position: "absolute",
@@ -20,18 +25,22 @@ const Layout = () => {
                     borderTopWidth: 1,
                     borderColor: "#333",
                     borderTopColor: "#333",
+                    // Hide tab bar on transaction screen
+                    display: route.name === 'transaction' ? 'none' : 'flex',
                 },
                 tabBarItemStyle: {
                     padding: 12.5,
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    flex: 1, // IMPORTANT FIX
+                    flex: 1,
                 },
                 tabBarShowLabel: false,
                 tabBarInactiveTintColor: "#999",
                 tabBarActiveTintColor: Colors.white,
-            }}
+                // Hide header for all tab screens
+                headerShown: false,
+            })}
         >
             <Tabs.Screen
                 name="index"
