@@ -1,13 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
 import ChatScreen from '@/components/features/chat/ChatScreen';
-import { Stack } from 'expo-router';
 
-export default function TransactionScreen() {
+// This is a standalone chat screen accessible outside the tab navigation
+export default function StandaloneChatScreen() {
     return (
         <View className="flex-1">
-            {/* Set headerShown: false to remove the header from the stack */}
-            <Stack.Screen options={{ headerShown: false }} />
             <ChatScreen isStandalone={true} />
         </View>
     );
